@@ -17,7 +17,7 @@ public enum Mixin {
     //
 
     // Replace with your own mixins:
-    ;
+    LMWorldServerMixin("ftbutilities.LMWorldServerMixin", FTB_UTILITIES);
 
     public final String mixinClass;
     public final List<TargetedMod> targetedMods;

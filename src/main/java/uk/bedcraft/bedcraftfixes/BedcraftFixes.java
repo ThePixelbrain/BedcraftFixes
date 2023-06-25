@@ -15,9 +15,4 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 public class BedcraftFixes {
 
     public static final Logger LOG = LogManager.getLogger(Tags.MODID);
-
-    @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
-        Config.synchronizeConfiguration(event.getSuggestedConfigurationFile());
-    }
 }
