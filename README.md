@@ -14,3 +14,4 @@ Requires a 1.7.10 mixin loader like [GTNHMixins](https://github.com/GTNewHorizon
 ## Fixes
 - FTBUtilities (v. 1.7.10-1.0.18.3)
   - Fixes `/sethome` going to bed or spawn in certain scenarios (#1)
+  - Respect the config value for `max_player_offline_hours` and properly unforce chunks when it exceeds (#4)
