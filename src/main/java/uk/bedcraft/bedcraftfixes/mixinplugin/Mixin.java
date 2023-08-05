@@ -16,8 +16,9 @@ public enum Mixin {
     // Exception: Tags.java, as long as it is used for Strings only!
     //
 
-    // Replace with your own mixins:
-    LMWorldServerMixin("ftbutilities.LMWorldServerMixin", FTB_UTILITIES);
+    // Add Mixins to load here
+    LMWorldServerMixin("ftbutilities.LMWorldServerMixin", FTB_UTILITIES),
+    FTBUChunkEventHandlerMixin("ftbutilities.FTBUChunkEventHandlerMixin", FTB_UTILITIES);
 
     public final String mixinClass;
     public final List<TargetedMod> targetedMods;
