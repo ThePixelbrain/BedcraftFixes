@@ -15,7 +15,8 @@ public enum TargetedMod {
 
     // Replace with your injected mods here, but always keep VANILLA:
     VANILLA("Minecraft", "unused", true),
-    FTB_UTILITIES("FTBUtilities", "FTBUtilities", true);
+    FTB_UTILITIES("FTBUtilities", "FTBUtilities", true),
+    FUNKY_LOCOMOTION("FunkyLocomotion", "FunkyLocomotion", true);
 
     public final String modName;
     public final String jarNamePrefixLowercase;
