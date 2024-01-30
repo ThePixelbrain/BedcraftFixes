@@ -15,3 +15,5 @@ Requires a 1.7.10 mixin loader like [GTNHMixins](https://github.com/GTNewHorizon
 - FTBUtilities (v. 1.7.10-1.0.18.3)
   - Fixes `/sethome` going to bed or spawn in certain scenarios (#1)
   - Respect the config value for `max_player_offline_hours` and properly unforce chunks when it exceeds (#4)
+- Funky Locomotion (v. Beta 7)
+  - Fix crash when frame moves with no players nearby ([#5](https://github.com/ThePixelbrain/BedcraftFixes/issues/5))
