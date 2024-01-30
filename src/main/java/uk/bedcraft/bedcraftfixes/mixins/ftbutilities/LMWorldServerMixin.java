@@ -6,7 +6,11 @@ import net.minecraftforge.common.util.FakePlayer;
 import org.spongepowered.asm.mixin.Mixin;
 
 import cpw.mods.fml.relauncher.Side;
-import ftb.utils.world.*;
+import ftb.utils.world.LMFakeServerPlayer;
+import ftb.utils.world.LMPlayer;
+import ftb.utils.world.LMPlayerServer;
+import ftb.utils.world.LMWorld;
+import ftb.utils.world.LMWorldServer;
 
 @Mixin(value = LMWorldServer.class, remap = false)
 public abstract class LMWorldServerMixin extends LMWorld {

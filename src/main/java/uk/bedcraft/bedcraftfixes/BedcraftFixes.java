@@ -6,12 +6,13 @@ import org.apache.logging.log4j.Logger;
 import cpw.mods.fml.common.Mod;
 
 @Mod(
-    modid = Tags.MODID,
+    modid = BedcraftFixes.MODID,
     version = Tags.VERSION,
-    name = Tags.MODNAME,
+    name = "BedcraftFixes",
     acceptedMinecraftVersions = "[1.7.10]",
     acceptableRemoteVersions = "*")
 public class BedcraftFixes {
 
-    public static final Logger LOG = LogManager.getLogger(Tags.MODID);
+    public static final String MODID = "bedcraftfixes";
+    public static final Logger LOG = LogManager.getLogger(BedcraftFixes.MODID);
 }

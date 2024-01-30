@@ -24,11 +24,11 @@ import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 
 import com.gtnewhorizon.gtnhmixins.MinecraftURLClassPath;
 
-import uk.bedcraft.bedcraftfixes.Tags;
+import uk.bedcraft.bedcraftfixes.BedcraftFixes;
 
 public class MixinPlugin implements IMixinConfigPlugin {
 
-    private static final Logger LOG = LogManager.getLogger(Tags.MODID + " mixins");
+    private static final Logger LOG = LogManager.getLogger(BedcraftFixes.MODID + " mixins");
     private static final Path MODS_DIRECTORY_PATH = new File(Launch.minecraftHome, "mods/").toPath();
 
     @Override
