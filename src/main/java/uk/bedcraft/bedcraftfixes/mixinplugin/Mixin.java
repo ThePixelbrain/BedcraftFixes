@@ -19,7 +19,8 @@ public enum Mixin {
     // Add Mixins to load here
     LMWorldServerMixin("ftbutilities.LMWorldServerMixin", FTB_UTILITIES),
     FTBUChunkEventHandlerMixin("ftbutilities.FTBUChunkEventHandlerMixin", FTB_UTILITIES),
-    MoveManagerMixin("funkylocomotion.MoveManagerMixin", FUNKY_LOCOMOTION);
+    MoveManagerMixin("funkylocomotion.MoveManagerMixin", FUNKY_LOCOMOTION),
+    QuestingDataMixin("hqm.QuestingDataMixin", HQM);
 
     public final String mixinClass;
     public final List<TargetedMod> targetedMods;
