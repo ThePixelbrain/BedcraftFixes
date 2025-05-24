@@ -37,4 +37,5 @@ dependencies {
     devOnlyNonPublishable(rfg.deobf("curse.maven:ftbutilities-237102:2291494"))
     devOnlyNonPublishable(rfg.deobf("curse.maven:ftblib-237167:2291433"))
     devOnlyNonPublishable(rfg.deobf("curse.maven:funkylocomotion-224190:2252223"))
+    devOnlyNonPublishable(rfg.deobf("curse.maven:HQM-77027:2270435"))
 }
