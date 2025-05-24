@@ -2,6 +2,8 @@ package uk.bedcraft.bedcraftfixes.mixins.hqm;
 
 import java.io.File;
 
+import net.minecraft.world.WorldServer;
+
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -27,7 +29,7 @@ public abstract class QuestingDataMixin {
             target = "Lhardcorequesting/network/FileHelper;saveData(Ljava/io/File;)Lhardcorequesting/network/FileHelper$SaveResult;"),
         cancellable = true,
         locals = LocalCapture.CAPTURE_FAILSOFT)
-    private static void saveFromNewThread(CallbackInfo ci, File file) {
+    private static void saveFromNewThread(File worldPath, WorldServer world, CallbackInfo ci, File file) {
         new Thread(() -> FILE_HELPER.saveData(file)).start();
         ci.cancel();
     }
