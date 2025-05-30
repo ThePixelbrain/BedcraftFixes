@@ -17,7 +17,8 @@ public enum TargetedMod {
     VANILLA("Minecraft", "unused", true),
     FTB_UTILITIES("FTBUtilities", "FTBUtilities", true),
     FUNKY_LOCOMOTION("FunkyLocomotion", "Funky", true),
-    HQM("HQM", "HQM", true);
+    HQM("HQM", "HQM", true),
+    COMPUTERCRAFT("ComputerCraft", "ComputerCraft", true);
 
     public final String modName;
     public final String jarNamePrefixLowercase;
